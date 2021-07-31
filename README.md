@@ -2,4 +2,6 @@
 
 Video Library App Built using MongoDB, Express, React, Node.
 
-https://tuxtv.herokuapp.com/
+Frontend: https://tuxtv.netlify.app
+
+repo: https://github.com/jugalkpatel/Tux-TV/tree/development--frontend
