@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const getConnection = async () => {
   try {
     await mongoose.connect(
-      `mongodb+srv://jimmy:${process.env.DB_PASS}@cluster0.tpjk1.mongodb.net/video-library?retryWrites=true&w=majority`,
+      process.env.DB_URI,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
